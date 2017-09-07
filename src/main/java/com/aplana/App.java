@@ -8,15 +8,13 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println(resultt("5+8-7"));
+        System.out.println(resultt("9-12"));
     }
     public static int resultt(String s){
         String[] a = s.split("");
         String b=a[0];
         List<Integer> c = new ArrayList();
         List<String> d = new ArrayList<String>();
-
-
         /*
         Проверяем каждый элемент массива на равенство с + или -. все + и - записываем в список в. Все цифры до + или - объединяем и записываем в список с в виде целого числа.
         В цикле также проверяем, является ли элемент после арифметического знака последним в массиве а.
